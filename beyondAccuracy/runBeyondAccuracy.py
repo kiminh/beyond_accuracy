@@ -18,10 +18,12 @@ import os
 import pickle
 import sys
 
-from mrec import load_fast_sparse_matrix
-from mrec.item_similarity.knn import CosineKNNRecommender
-from mrec.mf.warp import WARPMFRecommender
-from sparsesvd import sparsesvd
+import graphlab as gl
+
+# from mrec import load_fast_sparse_matrix
+# from mrec.item_similarity.knn import CosineKNNRecommender
+# from mrec.mf.warp import WARPMFRecommender
+# from sparsesvd import sparsesvd
 
 from beyondAccuracy import results
 from dataModel import trainData
